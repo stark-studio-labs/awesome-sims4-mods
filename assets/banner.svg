@@ -1,0 +1,71 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+    .stark-labs-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 100px;
+      fill: #FFFFFF;
+      text-anchor: middle;
+      dominant-baseline: central;
+      letter-spacing: 2px;
+    }
+    .tagline-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      fill: #B0B0B0;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .plumbob-glow {
+        filter: url(#glowFilter);
+    }
+    .plumbob-diamond {
+        fill: #39FF14; /* Neon Green */
+    }
+  </style>
+
+  <defs>
+    <!-- Subtle Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 L 0 40" fill="none" stroke="#22262E" stroke-width="0.5"/>
+    </pattern>
+    <!-- Glow filter for plumbob -->
+    <filter id="glowFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <rect width="100%" height="100%" fill="url(#gridPattern)" opacity="0.15"/>
+
+  <!-- Subtle Plumbob Diamond Motifs -->
+  <!-- Top Left -->
+  <g transform="translate(100, 100) scale(0.5) rotate(45)">
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-diamond" opacity="0.05"/>
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-glow" opacity="0.03"/>
+  </g>
+  <!-- Bottom Right -->
+  <g transform="translate(1180, 540) scale(0.5) rotate(45)">
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-diamond" opacity="0.05"/>
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-glow" opacity="0.03"/>
+  </g>
+  <!-- Center Plumbob (subtle) -->
+  <g transform="translate(640, 320) scale(0.8) rotate(45)">
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-diamond" opacity="0.07"/>
+    <polygon points="0,-50 25,0 0,50 -25,0" class="plumbob-glow" opacity="0.05"/>
+  </g>
+
+  <!-- Stark Labs Wordmark -->
+  <text x="640" y="280" class="stark-labs-text">STARK LABS</text>
+
+  <!-- Tagline -->
+  <text x="640" y="360" class="tagline-text">The definitive Sims 4 mod directory</text>
+
+</svg>
