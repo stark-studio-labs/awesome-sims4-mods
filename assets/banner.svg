@@ -1,22 +1,22 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
     .stark-labs-text {
-      font-family: 'Montserrat', sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
       font-weight: 700;
       font-size: 100px;
       fill: #FFFFFF;
       text-anchor: middle;
       dominant-baseline: central;
-      letter-spacing: 2px;
+      letter-spacing: 8px;
     }
     .tagline-text {
-      font-family: 'Montserrat', sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
       font-weight: 400;
-      font-size: 30px;
-      fill: #B0B0B0;
+      font-size: 28px;
+      fill: #8B949E;
       text-anchor: middle;
       dominant-baseline: central;
+      letter-spacing: 3px;
     }
     .plumbob-glow {
         filter: url(#glowFilter);
