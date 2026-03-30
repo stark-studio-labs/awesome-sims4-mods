@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner will be added once generated -->
-<img src="assets/banner.svg" alt="awesome-sims4-mods banner" width="100%">
+<img src="assets/banner.png" alt="awesome-sims4-mods banner" width="100%">
 
 # 🎮 awesome-sims4-mods
 
@@ -26,6 +26,7 @@
 
 ## 📖 Table of Contents
 
+- [🚀 Getting Started — New to Mods?](#-getting-started--new-to-mods)
 - [🔥 Stark Labs Originals](#-stark-labs-originals)
 - [🏆 Essential Mods](#-essential-mods)
 - [🎮 Gameplay Overhauls](#-gameplay-overhauls)
@@ -36,6 +37,120 @@
 - [🔧 Modding Tools & Frameworks](#-modding-tools--frameworks)
 - [📊 Compatibility Tracker](#-compatibility-tracker)
 - [🤝 Contributing](#-contributing)
+
+---
+
+## 🚀 Getting Started — New to Mods?
+
+Never modded The Sims 4 before? You're in the right place. This section covers everything from zero.
+
+---
+
+### What Is a Mod?
+
+A **mod** (short for modification) is a file made by the community that changes or adds to the game. Mods can:
+
+- Fix bugs EA hasn't patched
+- Add new gameplay systems (careers, emotions, relationships)
+- Change how existing mechanics work
+- Add new objects, hairstyles, and clothing (called **CC** — Custom Content)
+- Improve the game's UI and performance
+
+Mods come as `.package` files or `.ts4script` files. Both go in the same folder.
+
+---
+
+### Step 1: Find Your Mods Folder
+
+The Mods folder is where all your mod files live. Navigate to:
+
+**Windows:**
+```
+Documents\Electronic Arts\The Sims 4\Mods\
+```
+
+**Mac:**
+```
+Documents/Electronic Arts/The Sims 4/Mods/
+```
+
+> **Note:** If you've never opened the game, this folder may not exist yet. Launch the game once, then close it — the folder will be created automatically.
+
+You can organize mods into **subfolders** inside `Mods/`. The game reads up to **5 folder levels deep**, so feel free to create folders like `Mods/Gameplay/` or `Mods/CC/Clothing/`.
+
+---
+
+### Step 2: Download and Install a Mod
+
+1. Download the mod file from the creator's page (usually a `.zip` or `.rar` archive)
+2. Extract the archive — you'll find one or more `.package` and/or `.ts4script` files inside
+3. Move those files into your `Mods/` folder (or a subfolder inside it)
+4. Done — no installation wizard needed
+
+> **Never put `.zip` files directly into the Mods folder.** The game can't read compressed archives. Always extract first.
+
+---
+
+### Step 3: Enable Mods in Game Settings
+
+Mods are **disabled by default**. You must turn them on once:
+
+1. Launch The Sims 4
+2. Go to **Game Options** (the `...` menu in the top right) → **Other**
+3. Check **"Enable Custom Content and Mods"**
+4. Check **"Enable Script Mods and Custom Content"** *(required for `.ts4script` files)*
+5. Click **Apply Changes** — the game will restart
+
+You only need to do this once. After a major game patch, sometimes these settings get reset — if your mods stop working after an update, check here first.
+
+---
+
+### Step 4: Verify Mods Are Loaded
+
+After re-launching:
+
+1. Go to **Game Options → Other**
+2. Click **"Show Mod List"** — this lists every mod the game has detected
+3. If a mod isn't showing, it either failed to load or isn't in the right folder
+
+---
+
+### Troubleshooting
+
+**My game crashes on startup**
+
+A mod is incompatible with the current game version — usually after an EA patch. Use this process:
+1. Move all mods out of the folder temporarily
+2. If the game launches, move mods back in batches of 10-20
+3. The batch that causes the crash contains the broken mod
+4. Use **Better Exceptions** (in the QoL list below) to identify exactly which file is broken
+
+**A mod isn't working**
+
+- Confirm the `.package` or `.ts4script` file is directly in `Mods/` or a subfolder (not still inside a `.zip`)
+- Confirm script mods are enabled in Game Options
+- Check if the mod requires another mod to work (called a **dependency** — usually XML Injector or a community library)
+- Verify the mod is updated for the current game version
+
+**Mods stopped working after an update**
+
+EA patches frequently break mods. Creators usually update their mods within days of a patch. Check:
+- The mod's original download page for an updated version
+- [SimsVIP Broken/Updated Mods](https://simsvip.com/category/the-sims-4/broken-updated-mods/) for patch-by-patch status
+
+**The game is running slowly**
+
+- Too many mods (especially script mods) increases load time and can affect performance
+- Remove mods you don't use
+- Check that you're not accidentally running duplicate versions of the same mod
+
+**How many mods is too many?**
+
+There's no hard limit, but most players cap around 300-500 mods for stable performance. Script mods (`.ts4script`) have a larger performance impact than `.package` files — keep those to what you actually use.
+
+---
+
+> **Tip for beginners:** Start with 5-10 mods, get comfortable with the install process, then expand from there. The mods in the [Essential](#-essential-mods) section below are the best starting point.
 
 ---
 
