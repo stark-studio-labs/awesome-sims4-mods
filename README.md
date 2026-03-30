@@ -18,6 +18,22 @@
 
 </div>
 
+## 🌐 Stark Labs Ecosystem
+
+> Everything we build for The Sims 4 modding community — open source, interconnected, and community-driven.
+
+| Repo | What It Does | Status |
+|------|-------------|--------|
+| 📚 **[awesome-sims4-mods](https://github.com/stark-studio-labs/awesome-sims4-mods)** | Curated mod directory with compatibility tracking | ![Active](https://img.shields.io/badge/-active-brightgreen) |
+| 🧱 **[sims4-stark-framework](https://github.com/stark-studio-labs/sims4-stark-framework)** | Modern typed modding framework (replaces S4CL patterns) | ![Active](https://img.shields.io/badge/-active-brightgreen) |
+| 🔧 **[sims4-stark-devkit](https://github.com/stark-studio-labs/sims4-stark-devkit)** | CLI toolkit — decompile, package, scaffold, test | ![Active](https://img.shields.io/badge/-active-brightgreen) |
+| 📦 **[sims4-mod-manager](https://github.com/stark-studio-labs/sims4-mod-manager)** | Scan, organize, and detect conflicts in your mod collection | ![Alpha](https://img.shields.io/badge/-alpha-orange) |
+| 🎨 **[sims4-mod-builder](https://github.com/stark-studio-labs/sims4-mod-builder)** | Visual mod creation tool — no XML knowledge needed | ![In Dev](https://img.shields.io/badge/-in%20dev-yellow) |
+| 🔬 **[sims4-mod-revival](https://github.com/stark-studio-labs/sims4-mod-revival)** | Decompile and revive abandoned community mods | ![Active](https://img.shields.io/badge/-active-brightgreen) |
+| 💰 **[sims4-economy-sim](https://github.com/stark-studio-labs/sims4-economy-sim)** | Banking, bills, jobs, and stock market overhaul mod | ![Pre-Alpha](https://img.shields.io/badge/-pre--alpha-red) |
+
+---
+
 ## 🔥 Stark Labs Originals
 
 > Coming Soon — Original mods built by Stark Studio Labs. Stay tuned.
@@ -26,6 +42,7 @@
 
 ## 📖 Table of Contents
 
+- [🌐 Stark Labs Ecosystem](#-stark-labs-ecosystem)
 - [🚀 Getting Started — New to Mods?](#-getting-started--new-to-mods)
 - [🔥 Stark Labs Originals](#-stark-labs-originals)
 - [🏆 Essential Mods](#-essential-mods)
@@ -234,6 +251,9 @@ Want to create your own mods? Here's what you need.
 | **XML Injector** | XML | Simple tuning mods without scripting | [Download](https://scumbumbomods.com/) |
 | **Blender + S4 Plugins** | 3D | Mesh modeling and CAS item creation | [Blender](https://www.blender.org/) |
 | **MorphMaker** | Desktop App | Custom morphs for CAS items | [Download](https://sims4studio.com/) |
+| **Stark Framework** | Python | Modern typed modding framework | [GitHub](https://github.com/stark-studio-labs/sims4-stark-framework) |
+| **Stark DevKit** | Python CLI | Decompile, package, scaffold, test | [GitHub](https://github.com/stark-studio-labs/sims4-stark-devkit) |
+| **Stark Mod Builder** | Electron + React | Visual mod creation (coming soon) | [GitHub](https://github.com/stark-studio-labs/sims4-mod-builder) |
 
 ### Development Approaches
 
